@@ -18,46 +18,46 @@
       <label for="new-task">Add Item</label>
     <div class="todo__row">
       <input id="new-task" 
-             class="todo__row__task  task" 
+             class="todo__row-task  task" 
              type="text">
-      <button class="todo__row__btn">Add</button>
+      <button class="todo__row-btn">Add</button>
     </div>
     </p>
     <h3>Todo</h3>
     <ul id="incompleteTasks" class="incomplete-tasks">
       <li class="incomplete-tasks__item">
-        <input type="checkbox">
+        <input class="todo__checkbox" type="checkbox">
         <label class="incomplete-tasks__task  task">Pay Bills</label>
         <input type="text" 
-               class="incomplete-tasks__task  task">
+               class="incomplete-tasks__input  task">
         <button class="incomplete-tasks__edit  edit">Edit</button>
         <button class="incomplete-tasks__delete  delete">
-          <img src="./remove.svg">
+          <img class="incomplete-tasks__img  delete-img" src="./remove.svg">
         </button>
       </li>
       <li class="editMode">
-        <input type="checkbox">
-        <label class="editMode__task  task">Go Shopping</label>
+        <input class="todo__checkbox" type="checkbox">
+        <label class="editMode__task-label  task">Go Shopping</label>
         <input type="text" 
                value="Go Shopping" 
-               class="editMode__task  task">
+               class="editMode__task  task  edit">
         <button class="editMode__edit  edit">Save</button>
         <button class="editMode__delete  delete">
-          <img class="editMode__img" src="./remove.svg">
+          <img class="editMode__img  delete-img" src="./remove.svg">
         </button>
       </li>
     </ul>
     <h3>Completed</h3>
     <ul id="completed-tasks" class="complete-tasks">
       <li class="complete-tasks__item">
-        <input type="checkbox" 
+        <input class="todo__checkbox" type="checkbox" 
                checked>
         <label class="task">See the Doctor</label>
         <input type="text" 
                class="complete-tasks__task  task">
         <button class="edit">Edit</button>
         <button class="complete-tasks__delete  delete">
-          <img src="./remove.svg">
+          <img class="complete-tasks__img  delete-img" src="./remove.svg">
         </button>
       </li>
     </ul>
