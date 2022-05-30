@@ -5,18 +5,18 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.wrapper-more {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.wrapper-more__img {
+.header__img {
   width: 100%;
 }
 
-.wrapper-more__info {
+.header__link {
   font-family: fantasy, cursive;
 }
 
@@ -151,7 +151,6 @@ button {
   color: #888;
 }
 
-/* не могу менять ибо JS привязан к ним(а изменять js нельзя) */
 /* Edit Task */
 .todo__list .todo__input {
   display: none;
